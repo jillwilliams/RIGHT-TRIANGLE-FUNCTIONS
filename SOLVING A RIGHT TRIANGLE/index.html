@@ -1,16 +1,109 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-      <metacharset="utf-8">
-    <title>.............</title>
-    <link rel="stylesheet" href="./styles.css" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solving a Right Triangle
+    </title>
+    <link rel="stylesheet" HREF="./styles2.css">
     <style></style>
- </head>
-  <body>
+</head>
+<body>
+    <h1>Solving a Right Triangle using Trig Functions</h1>
+    <img src="./images/righttriangletrig.png" alt=" "
+    width="60%" height="60%" id="trianglepic">
+    </img>
+    <br>
+    Var a: <br>
+    <input type="text" id="varA" >
+    <br><br>
+    Var b: <br>
+    <input type="text" id="varB" >
+    <br><br>
+    Var c: <br>
+    <input type="text" id="varC" >
+    <br><br>
+    </div>
+<!-- Set up the Submit answer button -->
+        <button id="myBtn" onclick="myCalc( )">
+        Solve for the
+        <br>missing side length</br>
+        </button>
+        <p id="demo">
 
-    <button onclick="myFunction( )">click me bitch</button>
-    <p id="demo"></p>
+<!-- RADIO BUTTON SET-UP -->
+    <h2>Choose how many decimal places you would like the answer rounded to:</h2>
 
-      <script src="myscripts.js"></script>
-      </body>
-      </html>
+    <label class="container">One
+      <input type="radio" checked="checked"
+      name="radio"
+      id="radio1"
+      onclick="roundOne( )">
+      <span class="checkmark">
+    </span>
+    </label>
+
+    <p id="demo2"></p>
+
+    <label class="container">
+    Two
+      <input type="radio" name="radio"
+       id="radio2"
+      onclick="roundTwo( )">
+      <span class="checkmark">
+      </span>
+    </label>
+
+    <label class="container">
+    Three
+      <input type="radio" name="radio"
+       id="radio3"
+      onclick="roundThree( )">
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container">
+    Four
+      <input type="radio" name="radio"
+       id="radio4"
+       onclick="roundFour( )">
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container">
+    Five
+      <input type="radio" name="radio"
+       id="radio5"
+      onclick="roundFive( )">
+      <span class="checkmark"></span>
+    </label>
+
+    <script src="./script2.js"></script>
+</body>
+</html>
+
+            <!-- <td>
+                Var 𝒶 = <br>
+                <input type="text" id="my𝒶">
+            </td>
+            <td>
+                Var 𝛽 = <br>
+                <input type="text" id="my𝛽">
+            </td> -->
+        <!-- </tr>
+    </table>
+    <br> -->
+
+    <!-- <br>
+    <button type="submit" id="solvetriangle" onclick="solveForAlpha( )">
+    Solve for angle 𝒶
+    </button>
+    <br><br>
+        <p id="demoA"></p>
+    <br>
+    <button type="submit" id="solvetriangle" onclick="solveForBeta( )">Solve for 𝛽</button>
+        <p id="demoB"></p>
+    <br> -->
+    <!-- <script src="./script2.js"></script>
+</body>
+</html> -->

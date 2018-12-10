@@ -1,0 +1,66 @@
+title {
+    font-size: 200%;
+    color: black;
+    text-align: center;
+}
+h1 {
+    font-size: 200%;
+    color: black;
+    text-align: center;
+}
+/* Triangle image */
+#trianglepic {
+    border: 5px black solid;
+    outline: 2px green solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* Input field for variable 'a' text */
+/* #myA, #myB, #myC, #my𝒶 { */
+#inputbuttons {
+    width: 70px;
+    height: 70px;
+    font-size: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: 3px black solid;
+    outline: 2px red solid;
+}
+/* #my𝛽 {
+    width: 70px;
+    height: 70px;
+    font-size: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: 3px black solid;
+    outline: 2px red solid;
+    } */
+/* Submit Button */
+/* #solvetriangle { */
+#myBtn {
+    font-size: 150%;
+    color: white;
+    background-color: red;
+    border: 3px green solid;
+    outline: 2px red solid;
+}
+/* #solutions_are {
+    font-size: 70%;
+    color: red;
+    border: 3px green solid;
+    width: 100px;
+    height: 50px;
+} */
+#demo, #demoA, #demoB {
+    width: 60%;
+    height: 80px;
+    font-size: 150%;
+    color: purple;
+    text-align: center;
+    border: 3px purple solid;
+    outline: 2px yellow solid;
+}
