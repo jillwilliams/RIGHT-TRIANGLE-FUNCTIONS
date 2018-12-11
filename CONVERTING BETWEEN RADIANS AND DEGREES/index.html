@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-      <metacharset="utf-8">
+      <metacharset="utf-8", Unicode: U+27A0, UTF-8: E2 9E A>
     <title>Common Conversion Calculators</title>
     <link rel="stylesheet" href="./styles.css" />
     <style></style>
  </head>
   <body>
     <h1>CONVERSION CALCULATORS</h1>
-    <p>Convert Inches to Centimeters</p>
-    <p>Enter the Inches =</p>
+    <p class="convertmeasure">Convert Inches to Centimeters</p>
+    <p class="entermeasure">Enter the Inches =</p>
     <input type="text"
     id="inchesinput">
     <br><br>
     <button onclick="myCalc( )"
     id="myBtn1">
-    Inches ➠ Centimeters
+    Inches ➠
+ Centimeters
     </button>
     <p id="demo1">
     </p>
+<!-- //Radians ➭ Degrees -->
+    <br>
+    <p class="convertmeasure">Convert Radians to Degrees</p>
+    <p class="entermeasure">
+    Enter the Radians =
+    </p>
+    <input type="text"
+    id="radiansinput">
+    <br><br>
+    <button onclick="myRadiansCalc( )"
+    id="myBtn2">
+<!-- THESE 2 STATEMENTS !must! BE ON SEPERATE LINES WITH ARROW ON TOP LINE OR IT BREAKS -->
+    Radians ➠
+    Degrees
+    </button>
+    <p id="demo2">
+    </p>
+
      <script src="./script.js">
     </script>
 </body>

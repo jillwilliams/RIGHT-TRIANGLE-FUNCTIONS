@@ -3,7 +3,19 @@ h1 {
     font-size: 150%;
     font-family: "fantasy", ''Ink Free'';
     text-align: center;
-    color: black;
+    color: red;
+}
+/* TEXT "ENTER THE (units)" */
+.entermeasure {
+    text-align: left;
+    font-size: 150%;
+    color: orange;
+}
+/* CONVERT measure to new measure TEXT */
+.convertmeasure {
+    text-align: left;
+    font-size: 150%;
+    color: green;
 }
 p {
     font-size: 120%;
@@ -23,14 +35,14 @@ p {
     height: 70px;
 }
 /* CONV. BUTTON INCHES TO CM */
-#myBtn1 {
+#myBtn1, #myBtn2 {
     font-size: 100%;
     color: teal;
     background-color: lightblue;
     border: 5px black solid;
     outline: 3px purple solid;
 }
-#demo1 {
+#demo1, #demo2 {
     font-size: 200%;
     color: white;
     width: 200px;
@@ -40,5 +52,14 @@ p {
     border: 5px purple solid;
     outline: 3px white solid;
     background-color: violet;
-
+}
+#radiansinput {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    border: 5px purple solid;
+    outline: 3px white solid;
+    background-color: violet;
+    width: 150px;
+    height: 70px;
 }
