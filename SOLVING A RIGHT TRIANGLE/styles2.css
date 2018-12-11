@@ -1,13 +1,14 @@
-title {
-    font-size: 100%;
-    color: black;
-    text-shadow: 4px 3px green;
-    text-align: center;
+body {
+    /* background-color: radial-gradient(circle, yellow, green, grey); */
+    background-color: wheat;
+    align-items: center;
 }
 h1 {
-    font-size: 100%;
+    font-size: 140%;
     color: black;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Triangle image */
 #trianglepic {
@@ -16,7 +17,11 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+}
+#varwords {
+    font-size: 150%;
+    color: black;
+    text-align: center;
 }
 /* Input field for variable's text */
 #varA, #varB, #varC {
@@ -28,30 +33,37 @@ h1 {
     text-align: center;
     border: 3px black solid;
     outline: 2px red solid;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 /* Submit Button */
 #myBtn {
-    font-size: 90%;
+    font-size: 140%;
     color: white;
     width: 80%;
     height: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: red;
     border: 5px green solid;
     outline: 3px black solid;
+
 }
 #demo {
     width: 39%;
-    height: 40px;
-    font-size: 150%;
-    color: red;
+    height: 45px;
+    font-size: 180%;
+    color: black;
     border: 2px black solid;
     outline: 3px red solid;
     background-color: lightblue;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 h2 {
-    font-size: 80%;
+    font-size: 130%;
 }
 /* RADIO BUTTONS INDICATING NUMBER OF DECIMAL PLACES TO USE WHEN ROUNDING */
 /* The container */
@@ -121,5 +133,5 @@ h2 {
     outline: 3px red solid;
     background-color: lightblue;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
 }

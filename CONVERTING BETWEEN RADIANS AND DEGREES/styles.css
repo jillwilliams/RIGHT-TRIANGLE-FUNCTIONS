@@ -1,0 +1,44 @@
+/* TEXT: CONVERSION CALCULATORS */
+h1 {
+    font-size: 150%;
+    font-family: "fantasy", ''Ink Free'';
+    text-align: center;
+    color: black;
+}
+p {
+    font-size: 120%;
+    font-family: "fantasy", ''Ink Free'';
+    text-align: center;
+    color: black;
+}
+/* INPUT BOX FOR INCHES */
+#inchesinput {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    border: 5px purple solid;
+    outline: 3px white solid;
+    background-color: violet;
+    width: 150px;
+    height: 70px;
+}
+/* CONV. BUTTON INCHES TO CM */
+#myBtn1 {
+    font-size: 100%;
+    color: teal;
+    background-color: lightblue;
+    border: 5px black solid;
+    outline: 3px purple solid;
+}
+#demo1 {
+    font-size: 200%;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    border: 5px purple solid;
+    outline: 3px white solid;
+    background-color: violet;
+
+}

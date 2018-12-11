@@ -1,16 +1,94 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-      <metacharset="utf-8">
-    <title>.............</title>
-    <link rel="stylesheet" href="./styles.css" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pythagorean Theorem
+    </title>
+    <link rel="stylesheet" HREF="./styles.css">
     <style></style>
- </head>
-  <body>
+</head>
+<body>
+    <h1>The Pythagorean Theorem
+    <div>
+    a<sup>2</sup>
+    + b<sup>2</sup> = c<sup>2
+    </sup></div></h1>
+    <img src="./images/pythagoreantheorem.png" alt=" "
+    width="200px"
+    height="200px"
+    id="trianglepic">
+    </img>
+    <br>
+    <p id="varwords">Var a = <br>
+    </p>
+    <input type="text" id="varA" >
+    <br>
+    <p id="varwords">Var b = <br>
+    </p>
+    <input type="text" id="varB" >
+    <br>
+    <p id="varwords">Var c = <br>
+    </p>
+    <input type="text" id="varC" >
+    <br>
+    </div>
+    <br><br>
+<!-- Set up the Submit answer button -->
+        <button id="myBtn" onclick="myCalc( )">
+        Solve for the
+        <br>missing side length</br>
+        </button>
+        <p id="demo">
 
-    <button onclick="myFunction( )">click me</button>
-    <p id="demo"></p>
+<!-- RADIO BUTTON SET-UP -->
 
-      <script src="myscripts.js"></script>
-      </body>
-      </html>
+    <h2>Choose how many decimal places you would like the answer rounded to:</h2>
+
+    <label class="container">One
+      <input type="radio" checked="checked"
+      name="radio"
+      id="radio1"
+      onclick="roundOne( )">
+      <span class="checkmark">
+    </span>
+    </label>
+
+    <p id="demo2"></p>
+
+    <label class="container">
+    Two
+      <input type="radio" name="radio"
+       id="radio2"
+      onclick="roundTwo( )">
+      <span class="checkmark">
+      </span>
+    </label>
+
+    <label class="container">
+    Three
+      <input type="radio" name="radio"
+       id="radio3"
+      onclick="roundThree( )">
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container">
+    Four
+      <input type="radio" name="radio"
+       id="radio4"
+       onclick="roundFour( )">
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container">
+    Five
+      <input type="radio" name="radio"
+       id="radio5"
+      onclick="roundFive( )">
+      <span class="checkmark"></span>
+    </label>
+
+    <script src="./script.js"></script>
+</body>
+</html>
