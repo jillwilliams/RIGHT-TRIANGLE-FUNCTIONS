@@ -1,0 +1,110 @@
+/* TEXT: "CONVERSION CALCULATORS" */
+h1 {
+    font-size: 150%;
+    font-family: "fantasy", ''Ink Free'';
+    text-align: center;
+    color: black;
+    border: 3px black solid;
+    background-color: rgb(153,255,255);
+    padding: 5px;
+}
+/* TEXT "ENTER THE (units)" */
+.entermeasure {
+    text-align: left;
+    font-size: 150%;
+    color: black;
+}
+/* CONVERT measure to new measure TEXT */
+.convertmeasure {
+    text-align: left;
+    font-size: 150%;
+    color: black;
+    border: 1px black solid;
+    outline: 2px blue solid;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+body {
+    background-image: linear-gradient(lightblue, violet);
+    allowfullscreen;
+}
+p {
+    font-size: 120%;
+    font-family: "fantasy", ''Ink Free'';
+    text-align: center;
+    color: black;
+}
+/* INPUT BOX FOR INCHES */
+#inchesinput, #centiminput, #radiansinput, #degreesinput {
+    font-size: 180%;
+    color: black;
+    text-align: center;
+    border: 4px blue solid;
+    outline: 1px white solid;
+    background-color: rgb(153,255,255);
+    width: 150px;
+    height: 70px;
+}
+/* CONV. BUTTON */
+#myBtn1, #myBtn2, #myBtn3, #myBtn4, #myBtn5, #myBtn6, #myBtn7, #myBtn8, #myBtn9, #myBtn10, #myBtn11 {
+    font-size: 130%;
+    background-color: rgb(153,255,255);
+    border: 5px black solid;
+    outline: 3px blue solid;
+    padding: 5px;
+}
+#demo1, #demo2, #demo3, #demo4, #demo5, #demo6, #demo7, #demo8, #demo9, #demo10, #demo11, #demo12, #demo13 {
+    font-size: 200%;
+    color: black;
+    width: 230px;
+    height: 48px;
+    text-align: center;
+    padding: 10px;
+    border: 5px blue solid;
+    outline: 2px white solid;
+    background-color: rgb(153,266,255);
+}
+
+#pibtn {
+    font-size: 100%;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: rgb(153,266,255);
+}
+
+/* MILES TO KILOMETERS CONVERSION */
+#milesinput, #kminput, #centiminput {
+    font-size: 180%;
+    color: black;
+    text-align: center;
+    border: 4px blue solid;
+    outline: 1px white solid;
+    background-color: rgb(153,255,255);
+    width: 150px;
+    height: 70px;
+}
+
+/* TIME: YEARS TO MONTHS TO DAYS TO HOURS TO MINUTES */
+#seconds_input, #years_input {
+    font-size: 180%;
+    color: black;
+    text-align: center;
+    border: 4px blue solid;
+    outline: 1px white solid;
+    background-color: rgb(153,255,255);
+    width: 150px;
+    height: 70px;
+}
+/* TEMPLATE FOR NEW MEASURES */
+/* #...measures....input {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    border: 5px purple solid;
+    outline: 3px white solid;
+    background-color: violet;
+    width: 150px;
+    height: 70px;
+} */

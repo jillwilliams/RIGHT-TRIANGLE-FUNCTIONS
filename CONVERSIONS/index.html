@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <metacharset="utf-8" "Unicode: U+27A0" "UTF-8: E2 9E A" "Unicode: U+00B0" "UTF-8: C2 B0" "Unicode: U+220F" "UTF-8: E2 88 8F">
+    <title>Common Conversion Calculators</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style></style>
+ </head>
+  <body>
+    <img id="body" alt=" " />
+    </div>
+
+    <h1>CONVERSION CALCULATORS</h1>
+
+<!-- INCHES TO CENTIMETERS -->
+    <p class="convertmeasure">
+    Convert Inches to Centimeters
+    </p>
+    <p class="entermeasure">
+    Enter the Inches 
+    </p>
+    <input type="text"
+    id="inchesinput">
+    <br><br>
+    <button onclick="myCalc( )"
+    id="myBtn1">
+    Inches ➠
+ Centimeters
+    </button>
+    <p id="demo1">
+    </p>
+
+<!-- CENTIMETERS TO INCHES -->
+    <br>
+    <p class="convertmeasure">Convert Centimeters to Inches</p>
+    <p class="entermeasure">
+    Enter the Distance in Centimeters
+    </p>
+    <input type="text" id="centiminput">
+    <br><br>
+    <button id="myBtn6" onclick="myCentiToInches( )">
+    Centimeters  ➠
+    Inches
+    </button>
+    <p id="demo6"></p>
+    <br>
+
+<!-- Radians ➭ Degrees -->
+    <br>
+    <p class="convertmeasure">Convert Radians to Degrees</p>
+    <p class="entermeasure">
+    Enter the Radians
+    </p>
+    <input type="text"
+    id="radiansinput">
+    <button id="pibtn" onclick="myPiButton( )">∏</button>
+    <br><br>
+    <button onclick="myRadiansCalc( )"
+    id="myBtn2">
+<!-- THESE 2 STATEMENTS !must! BE ON SEPERATE LINES WITH ARROW ON TOP LINE OR IT BREAKS -->
+    Radians ➠
+    Degrees
+    </button>
+    <p id="demo2">
+    </p>
+    <br>
+<!-- END RADIANS TO DEGREES  -->
+
+<!-- DEGREES TO RADIANS CONVERSION -->
+<!-- Degrees  ➭ Radians -->
+    <br>
+    <p class="convertmeasure">Convert Degrees to Radians</p>
+    <p class="entermeasure">
+    Enter the Degrees
+    </p>
+    <input type="text" id="degreesinput">
+    <br><br>
+    <button id="myBtn3" onclick="myDegToRad( )">Degrees  ➠ Radians
+    </button>
+    <p id="demo3"></p>
+    <br>
+<!-- END DEGREES TO RADIANS -->
+
+<!-- DISTANCE MEASUREMENTS -->
+<!-- Miles  ➭ Kilometers -->
+    <br>
+    <p class="convertmeasure">Convert Miles to Kilometers</p>
+    <p class="entermeasure">
+    Enter the Distance in Miles
+    </p>
+    <input type="text" id="milesinput">
+    <br><br>
+    <button id="myBtn4" onclick="myMilesToKm( )">
+        Miles  ➠
+        Kilometers
+    </button>
+    <p id="demo4"></p>
+    <br>
+<!-- END MILES TO KILOMETERS -->
+
+<!-- CONVERT KILOMETERS TO MILES -->
+    <br>
+    <p class="convertmeasure">Convert Kilometers to Miles</p>
+    <p class="entermeasure">
+    Enter the Distance in Kilometers
+    </p>
+    <input type="text" id="kminput">
+    <br><br>
+    <button id="myBtn5" onclick="myKmToMi( )">
+    Kilometers  ➠
+    Miles
+    </button>
+    <p id="demo5"></p>
+    <br>
+
+<!-- DEMO6 WAS USED IN CONVERSION #2 CM TO INCH CONVERSION -->
+
+
+<!-- TIME CONVERSIONS -->
+<!-- CONVERT SECONDS TO MINUTES AND HOURS -->
+    <br>
+    <p class="convertmeasure">Convert Seconds to Minutes and Hours</p>
+    <p class="entermeasure">
+    Enter the time in Seconds
+    </p>
+    <input type="text" id="seconds_input">
+    <br><br>
+    <button id="myBtn7" onclick="mySecondsToMinutes( )">
+    Seconds  ➠
+    Minutes
+    </button>
+    <p id="demo7"></p>
+    <br>
+    <button id="myBtn7" onclick="mySecondsToHours( )">
+    Minutes  ➠
+    Hours
+    </button>
+    <p id="demo8"></p>
+    <br>
+
+<!-- CONVERT YEARS TO MONTHS TO DAYS TO HOURS TO SECONDS -->
+    <br>
+    <p class="convertmeasure">Convert Years</p>
+    <p class="entermeasure">
+    Enter the time in Years
+    </p>
+    <input type="text" id="years_input">
+    <br><br>
+    <button id="myBtn8" onclick="myYearsToMonths( )">
+    Years  ➠
+    Months
+    </button>
+    <p id="demo9"></p>
+    <br>
+    <button id="myBtn9" onclick="myMonthsToDays( )">
+    Months  ➠
+    Days
+    </button>
+    <p id="demo10"></p>
+    <br>
+    <button id="myBtn10" onclick="myDaysToHours( )">
+    Days  ➠
+    Hours
+    </button>
+    <p id="demo11"></p>
+    <br>
+    <button id="myBtn8" onclick="myHrsToMin( )">
+    Hours  ➠
+    Minutes
+    </button>
+    <p id="demo12"></p>
+    <br>
+    <button id="myBtn8" onclick="myMinToSec( )">
+    Minutes  ➠
+    Seconds
+    </button>
+    <p id="demo13"></p>
+
+     <script type="text/javascript" src="./script.js">
+    </script>
+</body>
+</html>

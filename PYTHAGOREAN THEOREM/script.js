@@ -5,7 +5,7 @@ var c = document.getElementById("varC").value;
 // Begin solving for all three side lengths
 // Solve for "c"
     if (a > 0 && b > 0) {
-        return  (Math.sqrt((a * a) + (b * b)));
+        return  calculate.toFixed(2, (Math.sqrt((a * a) + (b * b)));
     } else
 // Solve for b
     if (a > 0 && c > 0) {
@@ -21,15 +21,16 @@ var c = document.getElementById("varC").value;
         return ("Re-enter your values");
 }
 const myCalc = ( ) => {
-document.getElementById("demo").innerHTML = solveForSides ( );
+document.getElementById("demo").innerHTML = solveForSides( );
 }
 //WORKING//
 // ROUND TO ONE DECIMAL PLACE
-const roundOne = ( ) => {
+const roundOnePlace = ( ) => {
     return (Math.round(solveForSides, 1));
 }
-document.getElementById("demo2").innerHTML = roundOne( );
-
+// const roundOne = ( ) => {
+//     document.getElementById("demo2").innerHTML = roundOnePlace( );
+// }
 //ROUND TO TWO DECIMAL places
 const roundTwo = ( ) => {
     return (Math.round(solveForSides, 2));
